@@ -2,11 +2,21 @@
 node module to list movies from a specific url
 
 
+## no options..
 ```
 movies.list((err, results) => {
     console.log(results);
 })
 ```
+
+## with options
+```
+// page,amount-per-page, callback()
+movies.list(1, 50 , (err, results) => {
+    console.log(results);
+})
+```
+
 ## response
 ```
 [
