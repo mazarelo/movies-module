@@ -12,9 +12,9 @@ movies.list((err, results) => {
 ## with options
 ```
 // page,amount-per-page, callback()
-movies.list(1, 50 , (err, results) => {
+movies.list((err, results) => {
     console.log(results);
-})
+},{ page: 1, amount: 50 });
 ```
 
 ## response
