@@ -22,7 +22,8 @@ movies.list((err, results) => {
 [
     {
         date: "2016-Jun-04 07:01",
-        title: "10.Cloverfield.lane.2016...",
+        title: "10 cloverfield lane 2016",
+        path: "10.cloverfield.lane.2016.1080p.mkv"
         size: "2G"
     },
     ...
