@@ -7,3 +7,14 @@ movies.list((err, results) => {
     console.log(results);
 })
 ```
+## response
+```
+[
+    {
+        date: "2016-Jun-04 07:01",
+        title: "10.Cloverfield.lane.2016...",
+        size: "2G"
+    },
+    ...
+]
+```
