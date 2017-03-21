@@ -17,6 +17,14 @@ movies.list((err, results) => {
 },{ page: 1, amount: 50 });
 ```
 
+## query for results
+```
+// page,amount-per-page, callback()
+movies.query("The query here" ,(results) => {
+    console.log(results);
+});
+```
+
 ## response
 ```
 [
