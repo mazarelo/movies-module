@@ -2,7 +2,7 @@
     "name": "qmovies",
     "description": "List of Movies",
     "version": "0.0.1",
-    "url": "",
+    "url": "https://github.com/mazarelo/movies-module",
     "author": "Joao Mazarelo <jvmazarelo@gmail.com>",
     "main": "lib/movies",
     "license": "MIT",
