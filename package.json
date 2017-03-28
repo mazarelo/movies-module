@@ -1,15 +1,15 @@
 {
-  "name": "movies",
-  "description": "KODI Movies Wrapper",
-  "version": "0.0.1",
-  "url": "",
-  "author": "Joao Mazarelo <jvmazarelo@gmail.com>",
-  "main": "lib/movies",
-  "license": "MIT",
-  "repository": "",
-  "dependencies": {
-    "cheerio": "*",
-    "fs": "0.0.1-security",
-    "request": "*"
-  }
+    "name": "qmovies",
+    "description": "List of Movies",
+    "version": "0.0.1",
+    "url": "",
+    "author": "Joao Mazarelo <jvmazarelo@gmail.com>",
+    "main": "lib/movies",
+    "license": "MIT",
+    "repository": "",
+    "dependencies": {
+        "cheerio": "*",
+        "node-localdb": "0.0.3",
+        "request": "*"
+    }
 }
