@@ -1,12 +1,15 @@
 {
     "name": "qmovies",
     "description": "List of Movies",
-    "version": "0.0.1",
-    "url": "https://github.com/mazarelo/movies-module",
-    "author": "Joao Mazarelo <jvmazarelo@gmail.com>",
+    "version": "0.0.3",
+    "url": "",
+    "author": "Joao Mazarelo <info@mazarelo.com>",
     "main": "lib/movies",
     "license": "MIT",
-    "repository": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mazarelo/movies-module"
+    },
     "dependencies": {
         "cheerio": "*",
         "node-localdb": "0.0.3",
